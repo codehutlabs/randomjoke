@@ -2,15 +2,19 @@
 
 """Console script for randomjoke."""
 import sys
+
 import click
+
+from randomjoke.randomjoke import get_a_random_joke
 
 
 @click.command()
 def main(args=None):
     """Console script for randomjoke."""
-    click.echo("Replace this message by putting your code into "
-               "randomjoke.cli.main")
-    click.echo("See click documentation at https://click.palletsprojects.com/")
+    click.echo()
+    click.echo(get_a_random_joke())
+    click.echo()
+
     return 0
 
 

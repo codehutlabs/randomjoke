@@ -23,10 +23,24 @@ Display a random joke from https://icanhazdadjoke.com API
 * Documentation: https://randomjoke.readthedocs.io.
 
 
+Installation
+------------
+
+You can download and install the latest version of this software from the Python package index (PyPI) as follows:
+
+    pip install --upgrade randomjoke
+
+Usage
+-----
+
+In your command line simply type:
+
+    makeajoke
+
 Features
 --------
 
-* TODO
+* Display a random joke from https://icanhazdadjoke.com API
 
 Credits
 -------
